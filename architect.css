@@ -18,6 +18,12 @@
 .text-light-gray{
   color: #727272;
 }
+.section-title{
+  font-size: 2.8rem;
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  }
 /* header style */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -42,12 +48,7 @@ nav li a {
   text-decoration: none;
   color:  #424242;
 }
-.nav-title{
-font-size: 2.8rem;
-color: #131313;
-font-size: 45px;
-font-weight: 700;
-}
+
 /* banner style */
 .banner-content{
 max-width: 800px;
@@ -78,7 +79,7 @@ main{
 align-items: center;
 }
 .teams-img-container{
-  display: grid;
+  /* display: grid; */
   grid-template-columns:repeat(2,1fr) ;
 gap: 1.5rem;
 }
